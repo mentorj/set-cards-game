@@ -1,7 +1,6 @@
 import io.vavr.collection.List;
 import katas.set_cards_game.*;
 import org.assertj.core.api.Assertions;
-import org.assertj.core.api.Condition;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
