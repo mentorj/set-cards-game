@@ -37,6 +37,7 @@ public class SetCardsEngine {
         var predicate = asPredicate(function1);
         boolean result=true;
         List<Function1<Card,Distinguishable>> allCriterias = List.of(Card::color,Card::numberShapes,Card::shape,Card::shading);
+        
         for(Function1<Card,Distinguishable> function : allCriterias){
             result=result && allTheSameOrAllDifferentByCriteria(deck,function);
         }
